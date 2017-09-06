@@ -70,7 +70,7 @@ for t=1:max_iter
     end
     
   end
-%  w=w*wdamp;
+  w=w*wdamp;
   disp(['Iteration : ' num2str(t) ' Minimum value = ' num2str(gbest) ' Best solution is : ' num2str(pos_gbest)]);
 end
    
